@@ -1,0 +1,56 @@
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\bin\Debug\SeqDistKPlus.pdb
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\obj\Debug\SeqDistKPlus.csprojAssemblyReference.cache
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\obj\Debug\SeqDistKPlus.frmMain.resources
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\obj\Debug\SeqDistKPlus.Properties.Resources.resources
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.GenerateResource.cache
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.CoreCompileInputs.cache
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\obj\Debug\SeqDistKPlus.pdb
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\bin\Debug\MinMaxBar.dll
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\bin\Debug\MinMaxBar.pdb
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.CopyComplete
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\obj\Debug\SeqDistKPlus.FormSequence.resources
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\obj\Debug\SeqDistKPlus.FormImage.resources
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\bin\Debug\SeqDistKPlus.exe.config
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\bin\Debug\SeqDistKPlus.exe
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\obj\Debug\SeqDistKPlus.exe
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\bin\Debug\i18n.dll
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\bin\Debug\i18n.Domain.dll
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\bin\Debug\i18n.xml
+C:\Users\Ziqi Cheng\source\repos\SeqDistKPlus\SeqDistKPlus\bin\Debug\i18n.Domain.xml
+C:\Users\User\projects\Ksak\SeqDistKPlus\bin\Debug\SeqDistKPlus.exe.config
+C:\Users\User\projects\Ksak\SeqDistKPlus\bin\Debug\SeqDistKPlus.exe
+C:\Users\User\projects\Ksak\SeqDistKPlus\bin\Debug\SeqDistKPlus.pdb
+C:\Users\User\projects\Ksak\SeqDistKPlus\bin\Debug\i18n.dll
+C:\Users\User\projects\Ksak\SeqDistKPlus\bin\Debug\i18n.Domain.dll
+C:\Users\User\projects\Ksak\SeqDistKPlus\bin\Debug\i18n.xml
+C:\Users\User\projects\Ksak\SeqDistKPlus\bin\Debug\i18n.Domain.xml
+C:\Users\User\projects\Ksak\SeqDistKPlus\bin\Debug\MinMaxBar.pdb
+C:\Users\User\projects\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.AssemblyReference.cache
+C:\Users\User\projects\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.frmMain.resources
+C:\Users\User\projects\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.FormImage.resources
+C:\Users\User\projects\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.FormSequence.resources
+C:\Users\User\projects\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.Properties.Resources.resources
+C:\Users\User\projects\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.GenerateResource.cache
+C:\Users\User\projects\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.CoreCompileInputs.cache
+C:\Users\User\projects\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.CopyComplete
+C:\Users\User\projects\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.exe
+C:\Users\User\projects\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.pdb
+E:\Projects\CSharp\Ksak\SeqDistKPlus\bin\Debug\SeqDistKPlus.exe.config
+E:\Projects\CSharp\Ksak\SeqDistKPlus\bin\Debug\SeqDistKPlus.exe
+E:\Projects\CSharp\Ksak\SeqDistKPlus\bin\Debug\SeqDistKPlus.pdb
+E:\Projects\CSharp\Ksak\SeqDistKPlus\bin\Debug\i18n.dll
+E:\Projects\CSharp\Ksak\SeqDistKPlus\bin\Debug\i18n.Domain.dll
+E:\Projects\CSharp\Ksak\SeqDistKPlus\bin\Debug\i18n.xml
+E:\Projects\CSharp\Ksak\SeqDistKPlus\bin\Debug\i18n.Domain.xml
+E:\Projects\CSharp\Ksak\SeqDistKPlus\bin\Debug\MinMaxBar.pdb
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.AssemblyReference.cache
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.SuggestedBindingRedirects.cache
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.frmMain.resources
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.FormImage.resources
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.FormSequence.resources
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.Properties.Resources.resources
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.GenerateResource.cache
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.csproj.CopyComplete
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.exe
+E:\Projects\CSharp\Ksak\SeqDistKPlus\obj\Debug\SeqDistKPlus.pdb
