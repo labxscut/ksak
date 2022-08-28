@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{28211BB8-BB09-4A5B-9C5B-E8C4B132CB21}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SeqDistKPlus</RootNamespace>
-    <AssemblyName>SeqDistKPlus</AssemblyName>
+    <RootNamespace>Ksak</RootNamespace>
+    <AssemblyName>Ksak</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,7 @@
       <HintPath>..\packages\i18n.2.1.17\lib\net40\i18n.Domain.dll</HintPath>
     </Reference>
     <Reference Include="MinMaxBar">
-      <HintPath>..\..\MinMaxBar\MinMaxBar\bin\Release\MinMaxBar.dll</HintPath>
+      <HintPath>.\MinMaxBar.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -110,6 +110,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
