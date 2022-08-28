@@ -2,7 +2,7 @@
 
 The extended software we named Ksak, the background color of the software icon was changed from green to orange, and the interface of the software is shown below.
 
-![image](images/image1.png 1x1)
+![image](images/image1.png)
 
 The red area is the menu area, where you can set the language, graphic font and other information. The yellow area is the input area, where you can view and edit the sequences involved in the comparison. The green area is the configuration area, where you can configure the clustering algorithm, plotting algorithm, etc. The blue area is the output area, where you can view the generated tree and export it here. The purple area is the status area, where you can display the current progress of calculation and plotting.
 
