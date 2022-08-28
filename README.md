@@ -43,10 +43,11 @@ In addition, we can right click on the sequence name in the shortcut menu to sel
 
 After the software upgrade, Ksak can have two types of clustering output, including UPGMA clustering and NJ clustering. The following figure shows the output results of both clusters.
 
+<center>a) UPGMA clustering</center>
 ![image5](images/image5.png)
-![image6](images/image6.png)
 
-<center>a) UPGMA clustering; b) NJ clustering</center>
+<center>b) NJ clustering</center>
+![image6](images/image6.png)
 
 In addition, the output of Ksak can be saved in three ways after the upgrade. The first one is image output, and you can output all the plots under all parameters at once and save them in one folder. The second output is in matrix form, where the results of all runs under all parameters are saved in matrix form and stored in the same folder, and saved in the parameter format. The third output format can be saved as a notepad, where all sequences are output in the format described under different parameters. The three ways are shown in the figure.
 
@@ -55,21 +56,22 @@ In addition, the output of Ksak can be saved in three ways after the upgrade. Th
 
 For the output results in the form of evolution trees, we can upgrade the output to the following 7 presentation formats. The evolution tree allows us to visualize the different clustering effects and the clustering effect of species.
 
+<center>a) Standard</center>
 ![image9](images/1.png)
+<center>b) Circular</center>
 ![image10](images/2.png)
 
-<center>a) Standard; b) Circular</center>
-
+<center>c) Align Text</center>
 ![image11](images/3.png)
+
+<center>d) Triangular</center>
 ![image12](images/4.png)
 
-<center>c) Align Text; d) Triangular</center>
-
+<center>e) Bezier</center>
 ![image13](images/5.png)
+
+<center>f) Circular Triangular</center>
 ![image14](images/6.png)
 
-<center>e) Bezier; f) Circular Triangular</center>
-
-![image15](images/7.png)
-
 <center>g) Circular Bezier</center>
+![image15](images/7.png)
