@@ -1,6 +1,6 @@
 <b> 1. Operating interface of Ksak </b>
 
-The extended software we named Ksak, the background color of the software icon was changed from green to orange, and the interface of the software is shown below.
+the interface of Ksak is shown below.
 
 ![image](images/image1.png)
 
