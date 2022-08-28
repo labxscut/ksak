@@ -1,3 +1,7 @@
+<center>Fig. 1.      (a) The computation framework of Ksak; (b) Accuracy benchmark results; (c) Efficiency benchmark results; (d) An example phylogeny tree output of Ksak.</center>
+
+![image](images/0.png)
+
 <b> 1. Operating interface of Ksak </b>
 
 the interface of Ksak is shown below.
@@ -85,3 +89,23 @@ For the output results in the form of evolution trees, we can upgrade the output
 <center>g) Circular Bezier</center>
 
 ![image15](images/7.png)
+
+<b>Reference:</b>
+
+Lu, Y.Y., Tang, K., et al. (2017) CAFE: accelerated Alignment-Free sequence analysis. Nucleic Acids Res.45,W554-W559.
+
+Edgar, R.C. (2004) MUSCLE: a multiple sequence alignment method with re-duced time and space complexity. BMC Bioinformatics, 5, 113.
+
+Patel, S., Panchal, H. and Anjaria, K. (2012) Phylogenetic analysis of some legu-minous trees using CLUSTALW2 bioinformatics tool. Bioinformatics and Bio-medicine Workshops (BIBMW), 917–921.
+
+Katoh, K. (2014) MAFFT: iterative refinement and additional methods. Methods Mol. Biol., 1079, 131–146.
+
+Lu, Y.Y., Tang, K., et al. (2017) CAFE: accelerated Alignment-Free sequence analysis. Nucleic Acids Res.45,W554-W559.
+
+
+
+<b>Contact & Support:</b>
+
+Li C. Xia: email: lcxia@scut.edu.cn
+
+Ziqi Cheng: email: php@mail.scut.edu.cn
