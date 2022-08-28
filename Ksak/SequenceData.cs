@@ -8,7 +8,7 @@ namespace SeqDistKPlus
 {
     public class SequenceData
     {
-        public string filePath { get; set; } = "";
+        public string filePath { get; set; } = ""; 
         public SequenceType sequenceType { get; set; } = SequenceType.Genome;
 
         #region 私有字段
