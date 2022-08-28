@@ -29,6 +29,7 @@ namespace SeqDistKPlus
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormImage));
             this.tcImageType = new System.Windows.Forms.TabControl();
             this.tpStandard = new System.Windows.Forms.TabPage();
             this.tpCircular = new System.Windows.Forms.TabPage();
@@ -54,7 +55,7 @@ namespace SeqDistKPlus
             this.tcImageType.Controls.Add(this.tpCircularBezier);
             this.tcImageType.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tcImageType.Location = new System.Drawing.Point(0, 992);
-            this.tcImageType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tcImageType.Margin = new System.Windows.Forms.Padding(4);
             this.tcImageType.Name = "tcImageType";
             this.tcImageType.SelectedIndex = 0;
             this.tcImageType.Size = new System.Drawing.Size(1224, 44);
@@ -63,9 +64,9 @@ namespace SeqDistKPlus
             // tpStandard
             // 
             this.tpStandard.Location = new System.Drawing.Point(4, 4);
-            this.tpStandard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpStandard.Margin = new System.Windows.Forms.Padding(4);
             this.tpStandard.Name = "tpStandard";
-            this.tpStandard.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpStandard.Padding = new System.Windows.Forms.Padding(4);
             this.tpStandard.Size = new System.Drawing.Size(1216, 12);
             this.tpStandard.TabIndex = 0;
             this.tpStandard.Text = "Standard";
@@ -74,9 +75,9 @@ namespace SeqDistKPlus
             // tpCircular
             // 
             this.tpCircular.Location = new System.Drawing.Point(4, 4);
-            this.tpCircular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpCircular.Margin = new System.Windows.Forms.Padding(4);
             this.tpCircular.Name = "tpCircular";
-            this.tpCircular.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpCircular.Padding = new System.Windows.Forms.Padding(4);
             this.tpCircular.Size = new System.Drawing.Size(1216, 12);
             this.tpCircular.TabIndex = 1;
             this.tpCircular.Text = "Circular";
@@ -85,7 +86,7 @@ namespace SeqDistKPlus
             // tpAlignText
             // 
             this.tpAlignText.Location = new System.Drawing.Point(4, 4);
-            this.tpAlignText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpAlignText.Margin = new System.Windows.Forms.Padding(4);
             this.tpAlignText.Name = "tpAlignText";
             this.tpAlignText.Size = new System.Drawing.Size(1216, 12);
             this.tpAlignText.TabIndex = 2;
@@ -95,7 +96,7 @@ namespace SeqDistKPlus
             // tpTriangular
             // 
             this.tpTriangular.Location = new System.Drawing.Point(4, 4);
-            this.tpTriangular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpTriangular.Margin = new System.Windows.Forms.Padding(4);
             this.tpTriangular.Name = "tpTriangular";
             this.tpTriangular.Size = new System.Drawing.Size(1216, 12);
             this.tpTriangular.TabIndex = 3;
@@ -105,7 +106,7 @@ namespace SeqDistKPlus
             // tpBezier
             // 
             this.tpBezier.Location = new System.Drawing.Point(4, 4);
-            this.tpBezier.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpBezier.Margin = new System.Windows.Forms.Padding(4);
             this.tpBezier.Name = "tpBezier";
             this.tpBezier.Size = new System.Drawing.Size(1216, 12);
             this.tpBezier.TabIndex = 4;
@@ -115,9 +116,9 @@ namespace SeqDistKPlus
             // tpCircularTriangular
             // 
             this.tpCircularTriangular.Location = new System.Drawing.Point(4, 4);
-            this.tpCircularTriangular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpCircularTriangular.Margin = new System.Windows.Forms.Padding(4);
             this.tpCircularTriangular.Name = "tpCircularTriangular";
-            this.tpCircularTriangular.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpCircularTriangular.Padding = new System.Windows.Forms.Padding(4);
             this.tpCircularTriangular.Size = new System.Drawing.Size(1216, 12);
             this.tpCircularTriangular.TabIndex = 5;
             this.tpCircularTriangular.Text = "Circular Triangular";
@@ -126,9 +127,9 @@ namespace SeqDistKPlus
             // tpCircularBezier
             // 
             this.tpCircularBezier.Location = new System.Drawing.Point(4, 4);
-            this.tpCircularBezier.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpCircularBezier.Margin = new System.Windows.Forms.Padding(4);
             this.tpCircularBezier.Name = "tpCircularBezier";
-            this.tpCircularBezier.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpCircularBezier.Padding = new System.Windows.Forms.Padding(4);
             this.tpCircularBezier.Size = new System.Drawing.Size(1216, 12);
             this.tpCircularBezier.TabIndex = 6;
             this.tpCircularBezier.Text = "Circular Bezier";
@@ -138,7 +139,7 @@ namespace SeqDistKPlus
             // 
             this.pbMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbMain.Location = new System.Drawing.Point(0, 0);
-            this.pbMain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMain.Margin = new System.Windows.Forms.Padding(4);
             this.pbMain.Name = "pbMain";
             this.pbMain.Size = new System.Drawing.Size(1224, 992);
             this.pbMain.TabIndex = 1;
@@ -152,7 +153,8 @@ namespace SeqDistKPlus
             this.ClientSize = new System.Drawing.Size(1224, 1036);
             this.Controls.Add(this.pbMain);
             this.Controls.Add(this.tcImageType);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormImage";
             this.Text = "FormImage";
             this.tcImageType.ResumeLayout(false);
