@@ -4,7 +4,7 @@
 
 ## Introduction
 
-- Phylogenetic analysis is the cornerstone of evolutionary biology and taxonomy. Phylogeny based on molecular sequence similarity has become the de facto standard. All subsequences of size k derived from a molecular sequence, are called its k-mers. Numerous studies demonstrated that k-mers of molecular sequences, such as genomic DNA and proteins, are conserved within closely related organisms, and diverge with speciation (Huan et al., 2015, Yu et al., 2019). Thus k-mer statistics are efficient and effective phylogenetic distance measures (Bussi et al., 2021).
+- Phylogenetic analysis is the cornerstone of evolutionary biology and taxonomy. Phylogeny based on molecular sequence similarity has become the de facto standard. All subsequences of size k derived from a molecular sequence, are called its k-mers. Numerous studies demonstrated that k-mers of molecular sequences, such as genomic DNA, are conserved within closely related organisms, and diverge with speciation (Huan et al., 2015, Yu et al., 2019). Thus k-mer statistics are efficient and effective phylogenetic distance measures (Bussi et al., 2021).
 
 - We developed Ksak - a tool efficiently computes seven widely accepted k-mer statistics: Chebyshev (Ch), Manhattan (Ma), Euclidian (Eu), Hao (Qi et al., 2004), d2, d2S and d2star (Song et al., 2013); and performs alignment-free phylogenetic analysis. Using a golden standard 16S rRNA dataset, we extensively benchmarked the accuracy and efficiency of Ksak, comparing to Muscle (Edgar et al., 2004), ClustalW2 (Panchal et al., 2012) , Mafft (Katoh et al., 2014) and Cafe(Sun et al., 2017) - popular multiple sequence aligners. We made the software of Ksak open source. Ksak runs on MS Windows and Linux operating systems with a graphical user interface for Windows.
 
@@ -22,7 +22,7 @@
 
 - The red area is the menu area, where you can set the language, graphic font and other information. The yellow area is the input area, where you can view and edit the sequences involved in the comparison. The green area is the configuration area, where you can configure the clustering algorithm, plotting algorithm, etc. The blue area is the output area, where you can view the generated tree and export it here. The purple area is the status area, where you can display the current progress of calculation and plotting.
 
-- The software package can compare protein and DNA sequences by clicking <i><u>Gene</u></i> and <i><u>Protein</u></i>.
+- The software package can compare DNA sequences by clicking <i><u>Gene</u></i>.
 
 - The middle column is used to configure the calculation parameters, in <i><u>Distance</u></i> column you can configure which distance algorithm is needed for the calculation; in <i><u>k-string length</u></i> you can configure the interval information of k-string length; in <i><u>Malkov model</u></i> you can configure the interval information of Malkov model; in <i><u>Draw Method</u></i> you can configure the clustering algorithm (UPGMA or NJ).
 
