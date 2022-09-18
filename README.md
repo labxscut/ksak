@@ -31,17 +31,17 @@
 
 ### 1.3. Status bar
 
-- After importing and configuring the sequences, click <i><u>Generate</u></i> button to see the software start running. The running progress can be seen in the status bar at the bottom.
+- After importing and configuring the sequences, one can click <i><u>Generate</u></i> button to see the software starting to run. The running progress can be seen in this area.
 
 ### 1.4. Output panel
 
-- After the calculation is complete, the obtained tree is presented on the right side of the software. We can select different results and view them, and we can also view different styles of trees (Standard and Circular).
+- After the calculation is complete, the obtained tree is presented on the <i><u>Output panel</u></i> of the software. We can select different results and view them, and we can also view different styles of trees (Standard and Circular). Meanwhile, right clicking on the output image one can choose <i><u>Save</u></i> or <i><u>Save All ...</u></i> to export the results (bmp image, tree description file or distance matrix) for that or all plots, respectively. Double-click the image, then it can be viewed separately in a pop-up box.
 
-- Right click on the image and in the shortcut menu you can choose <i><u>Save</u></i> or <i><u>Save All ...</u></i> to export the results (bmp image, tree description file or distance matrix) for that or all plots, respectively. Double click on the image to see it individually in a pop-up box.
-
-- For example, in the left column we enter the comparison sequence and run the result as follows, which allows us to export the evolutionary tree directly.
+- For example, we input the comparison sequence in the <i><u>Iutput sequences</u></i> and run as follows, which allows us to export the evolutionary tree directly.
 
 ![image2](images/image2.png)
+
+<center>Fig. 3. Running example of <i>Ksak</i>.</center>
 
 ## <b> 2. Advantages of <i>Ksak</i></b>
 
@@ -119,7 +119,7 @@ Katoh, K. (2014) MAFFT: iterative refinement and additional methods. Methods Mol
 Lu, Y.Y., Tang, K., et al. (2017) CAFE: accelerated Alignment-Free sequence analysis. Nucleic Acids Res.45,W554-W559.
 
 
-
+***
 # <b>Contact & Support:</b>
 
 - Li C. Xia: email: lcxia@scut.edu.cn
