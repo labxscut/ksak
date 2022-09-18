@@ -12,11 +12,11 @@
 
 <center>Fig. 1. (a) The computation framework of <i>Ksak</i>; (b) Accuracy benchmark results; (c) Efficiency benchmark results; (d) An example phylogeny tree output of <i>Ksak</i>.</center>
 
-## Menu
+## Manual (Windows)
 
 ## <b> 1. User interface of <i>Ksak</i> </b>
 
-- The interface of <i>Ksak</i> is shown below.
+- The user interface of <i>Ksak</i> is shown below.
 
 ![image](images/image1.png)
 
