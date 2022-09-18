@@ -124,4 +124,6 @@ Lu, Y.Y., Tang, K., et al. (2017) CAFE: accelerated Alignment-Free sequence anal
 
 - Li C. Xia: email: lcxia@scut.edu.cn
 
+- Xuemei Liu: email: liuxm@scut.edu.cn
+
 - Ziqi Cheng: email: php@mail.scut.edu.cn
