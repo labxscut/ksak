@@ -12,21 +12,28 @@
 
 <center>Fig. 1. (a) The computation framework of <i>Ksak</i>; (b) Accuracy benchmark results; (c) Efficiency benchmark results; (d) An example phylogeny tree output of <i>Ksak</i>.</center>
 
+***
 ## Manual (Windows)
 
 ## <b> 1. User interface of <i>Ksak</i> </b>
 
-- The user interface of <i>Ksak</i> is shown below.
-
 ![image](images/image1.png)
 
-- The red area is the menu area, where you can set the language, graphic font and other information. The yellow area is the input area, where you can view and edit the sequences involved in the comparison. The green area is the configuration area, where you can configure the clustering algorithm, plotting algorithm, etc. The blue area is the output area, where you can view the generated tree and export it here. The purple area is the status area, where you can display the current progress of calculation and plotting.
+<center>Fig. 2. The user interface of <i>Ksak</i> is shown below.</center>
 
-- The software package can compare DNA sequences by clicking <i><u>Gene</u></i>.
+### 1.1. Main menu
 
-- The middle column is used to configure the calculation parameters, in <i><u>Distance</u></i> column you can configure which distance algorithm is needed for the calculation; in <i><u>k-string length</u></i> you can configure the interval information of k-string length; in <i><u>Malkov model</u></i> you can configure the interval information of Malkov model; in <i><u>Draw Method</u></i> you can configure the clustering algorithm (UPGMA or NJ).
+- The red area is the <b>main menu</b>, where you can set the language, graphic font and other options. The yellow area is the <b>input sequences</b>, where you can view and edit the sequences highlight colors. The green area is the <b>configuration panel</b>, where you can configure the options of clustering and plotting algorithm, etc. The blue area is the <b>output panel</b>, where you can view and export the generated tree. The purple area is the <b>status bar</b>, where the current progress of calculation and plotting is displayed.
+
+### 1.2. Configuration panel
+
+- This panel is used to configure the calculation parameters, in the <i><u>Distance</u></i> multiple selector one can configure which distance algorithm is needed for the calculation; in the <i><u>k-string length</u></i> field one can configure the interval information of k-string length; in the <i><u>Markov model</u></i> field one can configure the interval information of Markov model; in the <i><u>Tree Constrcution Method</u></i> field one can configure the clustering algorithm (UPGMA or NJ).
+
+### 1.3. Status bar
 
 - After importing and configuring the sequences, click <i><u>Generate</u></i> button to see the software start running. The running progress can be seen in the status bar at the bottom.
+
+### 1.4. Output panel
 
 - After the calculation is complete, the obtained tree is presented on the right side of the software. We can select different results and view them, and we can also view different styles of trees (Standard and Circular).
 
@@ -40,8 +47,6 @@
 
 - Multiple windows can be opened for easy comparison from tree to tree.
 Very full-featured: Upgrading on <i>Ksak</i> allows you to produce plots, mark colors, and set fonts with one click.
-
-- Win. Linux. platform: Has versions for both Windows and Linux platforms.
 
 - Time Upgrading: Using the technology of separating interaction and calculation, the efficiency is 20% more efficient on the basis of <i>Ksak</i>.
 
