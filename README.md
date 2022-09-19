@@ -103,6 +103,26 @@ Katoh, K. (2014) MAFFT: iterative refinement and additional methods. Methods Mol
 Lu, Y.Y., Tang, K., et al. (2017) CAFE: accelerated Alignment-Free sequence analysis. Nucleic Acids Res.45,W554-W559.
 
 
+<b>Q&A</b>
+
+1. <b>Q: Where can I try this software?</b>
+
+    A: You need to clone or download this project, then locate to <u>bin/Release</u>. After clicking <u>Ksak.exe</u> then you'll see the program immediately.
+
+2. <b>Q: Where can I get test data?</b>
+   
+   A: We provided some example data in the directory <u>data</u>, you can get the sequence data in <u>sequences</u> or outgroup data in <u>outgroup</u>. You can also use your own sequences data.
+
+3. <b>Q: How to use <u>Ksak.exe</u> analysis the given example data?</b>
+   
+   A:
+      
+       1. click to run Ksak.exe in [bin/Release];
+       2. click "Add" button in "Input" group, then pick the sequences in [data/sequences] (Hold "Shift" key to multi-select);
+       3. click menu "Inputs/Add Outgroup", then pick the sequences in [data/outgroup];
+       4. check "Eu" (or some others if you like) in "Run Parameters" group, and modify "K - mer length" and "Markov Background Order" (or not), then click "Run" button.
+       5. you'll see the tree result in "Output" group.
+
 
 <b>Contact & Support:</b>
 
