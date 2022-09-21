@@ -6,7 +6,7 @@
 
 - Phylogenetic analysis is the cornerstone of evolutionary biology and taxonomy. Phylogeny based on molecular sequence similarity has become the de facto standard. All subsequences of size k derived from a molecular sequence are called its k-mers. Numerous studies demonstrated that k-mers of molecular sequences, such as genomic DNA and proteins are conserved within closely related organisms, and diverge with speciation (Huan et al., 2015, Yu et al., 2019). Thus k-mer statistics are efficient and effective phylogenetic distance measures (Bussi et al., 2021).
 
-- We developed Ksak - a tool that not only efficiently computes seven widely accepted k-mer statistics: Chebyshev (Ch), Manhattan (Ma), Euclidian (Eu), Hao (Qi et al., 2004), d2, d2S and d2star (Song et al., 2013), but also performs alignment-free phylogenetic analysis. By applying of the golden standard 16S rRNA dataset, we extensively benchmarked the accuracy and efficiency of Ksak by comparing to Muscle (Edgar et al., 2004), ClustalW2 (Panchal et al., 2012), Mafft (Katoh et al., 2014) and Cafe(Sun et al., 2017) - popular multiple sequence aligners. We made the software of Ksak open source. Ksak runs on MS Windows operating systems with a graphical user interface for Windows.
+- We developed Ksak - a tool that not only efficiently computes seven widely accepted k-mer statistics: Chebyshev (Ch), Manhattan (Ma), Euclidian (Eu), Hao (Qi et al., 2004), d2, d2S and d2star (Song et al., 2013), but also performs alignment-free phylogenetic analysis. By applying of the golden standard 16S rRNA dataset, we extensively benchmarked the accuracy and efficiency of Ksak by comparing to other popular multiple sequence aligners：Muscle (Edgar et al., 2004), ClustalW2 (Panchal et al., 2012), Mafft (Katoh et al., 2014) and Cafe(Sun et al., 2017). We made the software of Ksak open source. Ksak runs on MS Windows operating systems with a graphical user interface for Windows.
 
 ![image](images/0.png)
 
@@ -42,25 +42,25 @@
 
 ### 1.1. Main menu
 
-- The red area is the <b>main menu</b>, where you can set the language, graphic font and other options. The yellow area is the <b>input sequences</b>, where you can view and edit the sequences highlight colors. The green area is the <b>configuration panel</b>, where you can configure the options of clustering and plotting algorithm, etc. The blue area is the <b>output panel</b>, where you can view and export the generated tree. The purple area is the <b>status bar</b>, where the current progress of calculation and plotting is displayed.
+- The red area is the <b>main menu</b>, where you can set the language, graphic font and other options. The yellow area is the input sequences, where you can view and edit the sequences with highlight colors. The green area is the <b>configuration panel</b>, where you can configure the options of clustering and plotting algorithm, etc. The blue area is the <b>output panel</b>, where you can view and export the generated tree. The purple area is the <b>status bar</b>, where the current progress of calculation and plotting is displayed.
 
 ### 1.2. Configuration panel
 
-- This panel is used to configure the calculation parameters, in the <i><u>Distance</u></i> multiple selector one can configure which distance algorithm is needed for the calculation; in the <i><u>k-string length</u></i> field one can configure the interval information of k-string length; in the <i><u>Markov model</u></i> field one can configure the interval information of Markov model; in the <i><u>Tree Constrcution Method</u></i> field one can configure the clustering algorithm (UPGMA or NJ).
+- This panel is used to configure the calculation parameters, in the <i><u>Distance</u></i> multiple selector you can configure the distance algorithm which is needed for the calculation; In the <i><u>k-string length</u></i> field you can configure the interval information for k-string length; In the <i><u>Markov model</u></i> field you can configure the interval information for Markov model; In the <i><u>Tree Constrcution Method</u></i> field you can configure the clustering algorithm (UPGMA or NJ).
 
 ### 1.3. Status bar
 
-- After importing and configuring the sequences, one can click <i><u>Generate</u></i> button to see the software starting to run. The running progress can be seen in this area.
+- After importing and configuring the sequences, you can click <i><u>Generate</u></i> button to start running the software. The running progress can be seen in this area.
 
 ### 1.4. Output panel
 
-- After the calculation is complete, the obtained tree is presented on the <i><u>Output panel</u></i> of the software. We can select different results and view them, and we can also view different styles of trees (Standard and Circular). Meanwhile, right clicking on the output image one can choose <i><u>Save</u></i> or <i><u>Save All ...</u></i> to export the results (bmp image, tree description file or distance matrix) for that or all plots, respectively. Double-click the image, then it can be viewed separately in a pop-up box.
+- After the calculation is complete, the obtained tree is presented on the <i><u>Output panel</u></i> from the software. We can select dto review different results and styles of trees (Standard and Circular). Meanwhile, by right clicking on the output image you can choose <i><u>Save</u></i> or <i><u>Save All ...</u></i> to output the results (bmp image, tree description file or distance matrix) or all plots respectively. Double-click the image, outputs can be reviewed separately in a pop-up box.
 
-- For example, we input the comparison sequence in the <i><u>Iutput sequences</u></i> and run as follows, which allows us to export the evolutionary tree directly.
+- For example, we input the comparison sequence in the <i><u>Iutput sequences</u></i> and run as follows, which allows us to output the evolutionary tree directly.
 
 ![image2](images/image2.png)
 
-<center>Fig. 3. Running example of <i>Ksak</i>.</center>
+<center>Fig. 3. Running an example of <i>Ksak</i>.</center>
 
 ## 2. Advantages of <i>Ksak</i>
 
@@ -72,7 +72,7 @@
 
 ## 3. Features of <i>Ksak</i>
 
-- The software is roughly divided into three panels. The left column is used to input sequences. Clicking the <i><u>Clear</u></i> button, one can clear the input sequence; clicking the <i><u>Add</u></i> one can import the sequence file by opening the input dialog box as shown in the Fig. 4. Meanwhile, the <i><u>Input</u></i> box also accepts file/folder drag-and-drop operation and will automatically find the fasta format file in the folder to import. Double-click the sequence file name one can view the sequence information.
+- The software is roughly divided into three panels. The left column is used to input sequences. You can clear the input sequence by clicking the Clear button; Import the sequence file by opening the input dialog box as shown in the figure by clicking the <i><u>Add</u></i> button. Meanwhile, the <i><u>Input</u></i> box supports file/folder drag-and-drop operation and will automatically apply the fasta format file in the folder to import. Double-click the sequence file name you can review the sequence information.
 
 ![image3](images/image3.png)
 
@@ -80,7 +80,7 @@
 
 &nbsp;
 
-- In addition, right clicking on the sequence name in the shortcut menu one can select the sequence color and mark it. In this way, the sequences are color categorized before comparison, and the output evolution tree is very clear.
+- In addition, right click on the sequence name in the shortcut menu, you can mark the sequence with selected color. In this way, the sequences are color-categorized before comparison, and the output evolution tree is very clear.
 
 ![image4](images/image4.png)
 
@@ -88,7 +88,7 @@
 
 &nbsp;
 
-- <i>Ksak</i> can have two output types of clustering tree, including UPGMA clustering and NJ clustering. The following figures show the output results of them.
+- <i>Ksak</i> can output two types of clustering tree, including UPGMA clustering and NJ clustering. The following figures show the output results of them.
 
 ![image5](images/image5.png)
 
@@ -102,7 +102,7 @@
 
 &nbsp;
 
-- The output of <i>Ksak</i> can be saved in three ways. The first one is in image form, and one can output all the plots under all parameters at once and save them in a folder. The second output is in matrix form, where the results of all runs under all parameters are saved in matrix form, stored in the same folder, and saved in the parameter format. The third output is in notepad form, where all sequences are output in the format described under different parameters. The three ways are shown in the figures.
+- The output of <i>Ksak</i> can be saved in three ways. The first way is in image form, and you can output all the plots from all parameters at once and save them in a folder. The second way is in matrix form, where all the plots from all parameters are saved in matrix form, stored in the same folder, and saved in the parameter format. The third way is in notepad form, where all sequences are output in the format described under different parameters. These three ways are shown in the figures.
 
 ![image7](images/image7.png)
 
