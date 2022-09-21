@@ -10,57 +10,61 @@ As shown in the Fig. 1, we developed Ksak - a tool that not only efficiently com
 
 ![image](images/0.png)
 
-<center>Fig. 1. (a) The computation framework of <i>Ksak</i>; (b) Accuracy benchmark results; (c) Efficiency benchmark results; (d) An example phylogeny tree output of <i>Ksak</i>.</center>
+<center>Fig. 1 (a) The computation framework of <i>Ksak</i>; (b) Accuracy benchmark results; (c) Efficiency benchmark results; (d) An example phylogeny tree output of <i>Ksak</i>.</center>
 
 ***
 ## Install
 
-### 1. Where can I try <i>Ksak</i>?
+### 1. Where can I get <i>Ksak</i>?
 
-- You need to clone or download this project, then locate to <b>[bin/Release]</b>. After clicking <i><b>Ksak.exe</b></i>, you'll see the program immediately.
+You need to clone or download this project, then locate to <b>[bin/Release]</b>. After double-clicking <i><b>Ksak.exe</b></i>, you'll see the program graphical interface immediately.
 
-### 2. Where can I get the test data?
+### 2. Where can I get the example data?
    
-- We have provided some example data in the directory <b>[data]</b>, you can get some sequence data in <b>[sequences]</b> or outgroup data in <u>[outgroup]</u>. You can also use your own data.
+We have provided some example fasta formatted data in the directory <b>[data]</b>, you can get the input sequence data in <b>[sequences]</b> and the outgroup data in  the directory <b>[outgroup]</b>. Use these data as template to construct your own data.
 
-### 3. How to use <i><b>Ksak.exe</b></i> to analyze the given example data?
+### 3. How to use <i><b>Ksak.exe</b></i> to analyze the example data?
    
-- Click to run <i>Ksak.exe</i> in [bin/Release];
-- Click <i>Add</i> button in <i>Input</i> panel, then pick the sequences in [data/sequences] (Hold <i>Shift</i> key to multi-select);
-- Click <i>Inputs/Add Outgroup</i> in the main menu, then pick the sequences in [data/outgroup];
-- Check <i>Eu</i> (or some others if you like) in <i>Configuraion panel</i>, and modify <i>K-mer length</i> and <i>Markov Background Order</i> (or not), then click <i>Run</i> button.
-- The results will appeared in <i>Output</i> panel.
+① Double-click to run <i>Ksak.exe</i> in [bin/Release];
+
+② Click <i>Add</i> button in <i>Input</i> panel, then pick the sequences in [data/sequences] (Hold <i>Shift</i> key to multi-select);
+
+③ Click <i>Inputs/Add Outgroup</i> in the main menu, then pick the sequences in [data/outgroup];
+
+④ Check <i>Eu</i> (or some other measures if you like) in the <i>Configuraion panel</i>, and modify the <i>K-mer length</i> and <i>Markov Background Order</i> (optional), then click the <i>Run</i> button;
+
+⑤ The results will appeared in the <i>Output</i> panel.
 
 ***
 ## Manual (Windows)
 
-## 1. User interface of <i>Ksak</i>
+## 1. The user interface of <i>Ksak</i>
 
 ![image](images/image1.png)
 
-<center>Fig. 2. The user interface of <i>Ksak</i> is shown below.</center>
+<center>Fig. 2 The user interface of <i>Ksak</i> is shown below.</center>
 
 ### 1.1. Main menu
 
-- The red area is the <b>main menu</b>, where you can set the language, graphic font and other options. The yellow area is the input sequences, where you can view and edit the sequences with highlight colors. The green area is the <b>configuration panel</b>, where you can configure the options of clustering and plotting algorithm, etc. The blue area is the <b>output panel</b>, where you can view and export the generated tree. The purple area is the <b>status bar</b>, where the current progress of calculation and plotting is displayed.
+As shown in the Fig. 2, the red area is the <b>main menu</b>, where you can set the language, graphic font and other options. The yellow area is the input sequences, where you can view and edit the sequences with highlight colors. The green area is the <b>configuration panel</b>, where you can configure the options of clustering and plotting algorithm, etc. The blue area is the <b>output panel</b>, where you can view and export the generated trees. The purple area is the <b>status bar</b>, where the current progress of calculation and plotting is displayed.
 
 ### 1.2. Configuration panel
 
-- This panel is used to configure the calculation parameters, in the <i><u>Distance</u></i> multiple selector you can configure the distance algorithm which is needed for the calculation; In the <i><u>k-string length</u></i> field you can configure the interval information for k-string length; In the <i><u>Markov model</u></i> field you can configure the interval information for Markov model; In the <i><u>Tree Constrcution Method</u></i> field you can configure the clustering algorithm (UPGMA or NJ).
+This panel is used to configure the calculation parameters. In the <i><u>Distance</u></i> multiple selector you can configure the distance algorithm which is needed for the calculation. In the <i><u>k-string length</u></i> field you can configure the interval information for k-string length. In the <i><u>Markov model</u></i> field you can configure the interval information for Markov model. In the <i><u>Tree Constrcution Method</u></i> field you can configure the clustering algorithm (Unweighted pair-group method with arithmetic means (UPGMA) or Neighbor Joining (NJ)).
 
 ### 1.3. Status bar
 
-- After importing and configuring the sequences, you can click <i><u>Generate</u></i> button to start running the software. The running progress can be seen in this area.
+After importing and configuring the input sequences, you can click the <i><u>Generate</u></i> button to start running the software. The running progress can be viewed in this area.
 
 ### 1.4. Output panel
 
-- After the calculation is complete, the obtained tree is presented on the <i><u>Output panel</u></i> from the software. We can select dto review different results and styles of trees (Standard and Circular). Meanwhile, by right clicking on the output image you can choose <i><u>Save</u></i> or <i><u>Save All ...</u></i> to output the results (bmp image, tree description file or distance matrix) or all plots respectively. Double-click the image, outputs can be reviewed separately in a pop-up box.
+After the calculation is complete, the obtained tree is presented on the <i><u>Output panel</u></i>. We can select to review different styles of output trees (Standard and Circular). Meanwhile, by right clicking on the output display area you can choose <i><u>Save</u></i> or <i><u>Save All ...</u></i> to save the results to bmp image, tree description file or distance matrix. Double-click the output display area, outputs can be reviewed separately in a pop-up box.
 
-- For example, we input the comparison sequence in the <i><u>Iutput sequences</u></i> and run as follows, which allows us to output the evolutionary tree directly.
+In the example run, we input the comparison sequences in the <i><u>Iutput sequences</u></i> and run <i>Ksak</i> and obtain the output evolutionary tree directly.
 
 ![image2](images/image2.png)
 
-<center>Fig. 3. Running an example of <i>Ksak</i>.</center>
+<center>Fig. 3 An example of <i>Ksak</i>.</center>
 
 ## 2. Advantages of <i>Ksak</i>
 
@@ -76,7 +80,7 @@ As shown in the Fig. 1, we developed Ksak - a tool that not only efficiently com
 
 ![image3](images/image3.png)
 
-<center>Fig. 4. Import operation of <i>Ksak</i>.</center>
+<center>Fig. 4 Import operation of <i>Ksak</i>.</center>
 
 &nbsp;
 
@@ -84,7 +88,7 @@ As shown in the Fig. 1, we developed Ksak - a tool that not only efficiently com
 
 ![image4](images/image4.png)
 
-<center>Fig. 5. Color setting of <i>Ksak</i>.</center>
+<center>Fig. 5 Color setting of <i>Ksak</i>.</center>
 
 &nbsp;
 
@@ -92,13 +96,13 @@ As shown in the Fig. 1, we developed Ksak - a tool that not only efficiently com
 
 ![image5](images/image5.png)
 
-<center>Fig. 6. UPGMA clustering</center>
+<center>Fig. 6 UPGMA clustering</center>
 
 &nbsp;
 
 ![image6](images/image6.png)
 
-<center>Fig. 7. NJ clustering</center>
+<center>Fig. 7 NJ clustering</center>
 
 &nbsp;
 
@@ -106,7 +110,7 @@ As shown in the Fig. 1, we developed Ksak - a tool that not only efficiently com
 
 ![image7](images/image7.png)
 
-<center>Fig. 8. Three output ways of <i>Ksak</i>.</center>
+<center>Fig. 8 Three output ways of <i>Ksak</i>.</center>
 
 &nbsp;
 
@@ -114,45 +118,45 @@ As shown in the Fig. 1, we developed Ksak - a tool that not only efficiently com
 
 ![image8](images/1.png)
 
-<center>Fig. 9. Standard form.</center>
+<center>Fig. 9 Standard form.</center>
 
 &nbsp;
 
 ![image9](images/2.png)
 
-<center>Fig. 10. Circular form.</center>
+<center>Fig. 10 Circular form.</center>
 
 &nbsp;
 
 ![image10](images/3.png)
 
-<center>Fig. 11. Align text form.</center>
+<center>Fig. 11 Align text form.</center>
 
 &nbsp;
 
 ![image11](images/4.png)
 
-<center>Fig. 12. Triangular form.</center>
+<center>Fig. 12 Triangular form.</center>
 
 &nbsp;
 
 ![image12](images/5.png)
 
-<center>Fig. 13. Bezier form.</center>
+<center>Fig. 13 Bezier form.</center>
 
 &nbsp;
 
 ![image13](images/6.png)
 
-<center>Fig. 14. Circular triangular form.</center>
+<center>Fig. 14 Circular triangular form.</center>
 
 &nbsp;
 
 ![image14](images/7.png)
 
-<center>Fig. 15. Circular bezier form.</center>
+<center>Fig. 15 Circular bezier form.</center>
 
-## Reference:
+## References:
 
 Liu, X. M., Wan, L., et al. (2011) New powerful statistics for alignment-free sequence comparison under a pattern transfer model. J. Theor. Biol, 284(1), 106-116.
 
