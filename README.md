@@ -2,6 +2,25 @@
 
 # README
 
+## Software Description (Q&A)
+
+### Q: Where can I try this software?
+
+- You need to clone or download this project, then locate to <u>bin/Release</u>. After clicking <u>Ksak.exe</u> then you'll see the program immediately.
+
+### Q: Where can I get test data?
+   
+- We provided some example data in the directory <u>data</u>, you can get the sequence data in <u>sequences</u> or outgroup data in <u>outgroup</u>. You can also use your own sequences data.
+
+### Q: How to use <u>Ksak.exe</u> analysis the given example data?
+   
+- Click to run Ksak.exe in [bin/Release];
+- Click "Add" button in "Input" group, then pick the sequences in [data/sequences] (Hold "Shift" key to multi-select);
+- Click menu "Inputs/Add Outgroup", then pick the sequences in [data/outgroup];
+- Check "Eu" (or some others if you like) in "Run Parameters" group, and modify "K - mer length" and "Markov Background Order" (or not), then click "Run" button.
+- The tree result will appeared in "Output" group.
+
+***
 ## Introduction
 
 - Phylogenetic analysis is the cornerstone of evolutionary biology and taxonomy. Phylogeny based on molecular sequence similarity has become the de facto standard. All subsequences of size k derived from a molecular sequence are called its k-mers. Numerous studies demonstrated that k-mers of molecular sequences, such as genomic DNA and proteins are conserved within closely related organisms, and diverge with speciation (Huan et al., 2015, Yu et al., 2019). Thus k-mer statistics are efficient and effective phylogenetic distance measures (Bussi et al., 2021).
@@ -133,30 +152,7 @@
 
 <center>Fig. 15. Circular bezier form.</center>
 
-&nbsp;
-
-<b>Q&A</b>
-
-1. <b>Q: Where can I try this software?</b>
-
-    A: You need to clone or download this project, then locate to <u>bin/Release</u>. After clicking <u>Ksak.exe</u> then you'll see the program immediately.
-
-2. <b>Q: Where can I get test data?</b>
-   
-   A: We provided some example data in the directory <u>data</u>, you can get the sequence data in <u>sequences</u> or outgroup data in <u>outgroup</u>. You can also use your own sequences data.
-
-3. <b>Q: How to use <u>Ksak.exe</u> analysis the given example data?</b>
-   
-   A:
-      
-       1. click to run Ksak.exe in [bin/Release];
-       2. click "Add" button in "Input" group, then pick the sequences in [data/sequences] (Hold "Shift" key to multi-select);
-       3. click menu "Inputs/Add Outgroup", then pick the sequences in [data/outgroup];
-       4. check "Eu" (or some others if you like) in "Run Parameters" group, and modify "K - mer length" and "Markov Background Order" (or not), then click "Run" button.
-       5. you'll see the tree result in "Output" group.
-
-
-## <b>Reference:</b>
+## Reference:
 
 Liu, X. M., Wan, L., et al. (2011) New powerful statistics for alignment-free sequence comparison under a pattern transfer model. J. Theor. Biol, 284(1), 106-116.
 
