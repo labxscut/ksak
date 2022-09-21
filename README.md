@@ -21,15 +21,15 @@
 
 ### 2. Where can I get the test data?
    
-- We have provided some example data in the directory <b>[data]</b>, you can get the sequence data in <b>[sequences]</b> or outgroup data in <u>[outgroup]</u>. You can also use your own data.
+- We have provided some example data in the directory <b>[data]</b>, you can get some sequence data in <b>[sequences]</b> or outgroup data in <u>[outgroup]</u>. You can also use your own data.
 
 ### 3. How to use <i><b>Ksak.exe</b></i> to analyze the given example data?
    
 - Click to run <i>Ksak.exe</i> in [bin/Release];
-- Click <i>Add</i> button in <i>Input</i> group, then pick the sequences in [data/sequences] (Hold <i>Shift</i> key to multi-select);
-- Click menu <i>Inputs/Add Outgroup</i>, then pick the sequences in [data/outgroup];
-- Check <i>Eu</i> (or some others if you like) in <i>Run Parameters</i> group, and modify <i>K-mer length</i> and <i>Markov Background Order</i> (or not), then click <i>Run</i> button.
-- The tree result will appeared in <i>Output</i> group.
+- Click <i>Add</i> button in <i>Input</i> panel, then pick the sequences in [data/sequences] (Hold <i>Shift</i> key to multi-select);
+- Click <i>Inputs/Add Outgroup</i> in the main menu, then pick the sequences in [data/outgroup];
+- Check <i>Eu</i> (or some others if you like) in <i>Configuraion panel</i>, and modify <i>K-mer length</i> and <i>Markov Background Order</i> (or not), then click <i>Run</i> button.
+- The results will appeared in <i>Output</i> panel.
 
 ***
 ## Manual (Windows)
