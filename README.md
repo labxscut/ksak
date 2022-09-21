@@ -15,15 +15,15 @@
 ***
 ## Install
 
-### Where can I try <i>Ksak</i>?
+### 1. Where can I try <i>Ksak</i>?
 
 - You need to clone or download this project, then locate to <b>[bin/Release]</b>. After clicking <i><b>Ksak.exe</b></i>, you'll see the program immediately.
 
-### Where can I get the test data?
+### 2. Where can I get the test data?
    
 - We have provided some example data in the directory <b>[data]</b>, you can get the sequence data in <b>[sequences]</b> or outgroup data in <u>[outgroup]</u>. You can also use your own data.
 
-### How to use <i><b>Ksak.exe</b></i> to analyze the given example data?
+### 3. How to use <i><b>Ksak.exe</b></i> to analyze the given example data?
    
 - Click to run <i>Ksak.exe</i> in [bin/Release];
 - Click <i>Add</i> button in <i>Input</i> group, then pick the sequences in [data/sequences] (Hold <i>Shift</i> key to multi-select);
