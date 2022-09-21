@@ -64,27 +64,21 @@ In the example run, we input the comparison sequences in the <i><u>Iutput sequen
 
 ![image2](images/image2.png)
 
-<center>Fig. 3 An example of <i>Ksak</i>.</center>
+<center>Fig. 3 An example run of <i>Ksak</i>.</center>
 
-## 2. Advantages of <i>Ksak</i>
+## 2. Advanced features of <i>Ksak</i>
 
-- Multi-window view: Multiple windows can be opened for easy comparison from tree to tree.
+<i>Ksak</i> has multi-window view: Multiple windows can be opened for easy comparison from tree to tree; <i>Ksak</i> allows users to produce plots, mark colors, and set fonts with one click; <i>Ksak</i> supports Chinese & English languages.
 
-- Fully functional: <i>Ksak</i> allows you to produce plots, mark colors, and set fonts with one click.
-
-- Language support: Chinese & English.
-
-## 3. Features of <i>Ksak</i>
-
-- The software is roughly divided into three panels. The left column is used to input sequences. You can clear the input sequence by clicking the Clear button; Import the sequence file by opening the input dialog box as shown in the figure by clicking the <i><u>Add</u></i> button. Meanwhile, the <i><u>Input</u></i> box supports file/folder drag-and-drop operation and will automatically apply the fasta format file in the folder to import. Double-click the sequence file name you can review the sequence information.
+<i>Ksak</i>'s graphical interface is roughly divided into three panels. The left column is used to input sequences. One can clear the input sequence by clicking the Clear button. Import the sequence file by opening the input dialog box as shown in the figure by clicking the <i><u>Add</u></i> button. As shown in the Fig. 4, meanwhile, the <i><u>Input</u></i> box supports file/folder drag-and-drop operation and will automatically apply the fasta format file in the folder to import. Double-click the sequence file name you can review the sequence information.
 
 ![image3](images/image3.png)
 
-<center>Fig. 4 Import operation of <i>Ksak</i>.</center>
+<center>Fig. 4 Import sequences to <i>Ksak</i>.</center>
 
 &nbsp;
 
-- In addition, right click on the sequence name in the shortcut menu, you can mark the sequence with selected color. In this way, the sequences are color-categorized before comparison, and the output evolution tree is very clear.
+In addition, right click on the sequence name in the shortcut menu, you can mark the sequence with selected color. In this way, the sequences are color-categorized before comparison, and the output evolution tree is very clear.
 
 ![image4](images/image4.png)
 
