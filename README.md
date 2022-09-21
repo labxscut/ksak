@@ -152,14 +152,14 @@ For the output results saved in the form of evolution trees, <i>Ksak</i> can swi
 
 ## References:
 
-Liu, X. M., Wan, L., et al. (2011) New powerful statistics for alignment-free sequence comparison under a pattern transfer model. J. Theor. Biol, 284(1), 106-116.
+<b>Liu, X. M.</b>, Wan, L., et al. (2011) New powerful statistics for alignment-free sequence comparison under a pattern transfer model. J. Theor. Biol, 284(1), 106-116.
 
 Song, K., Ren, J., et al. (2013) Alignment-Free Sequence Comparison Based on Next-Generation Sequencing Reads. J Comp. Biol, 20, 64–79.
 
 Liu, X. M., Huang, G. D., et al. (2019) Application of Sequence Alignment-Free Comparison-Based SeqDistK to Microbial Flora Clustering. J South Chin Norm Univ: Nat Sci Ed, 47(11), 71-77.
 
 ***
-# <b>Contact & Support:</b>
+# Contact & Support:
 
 - Li C. Xia: email: lcxia@scut.edu.cn
 
