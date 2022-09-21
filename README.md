@@ -82,11 +82,11 @@ In addition, right click on the sequence name in the shortcut menu, you can mark
 
 ![image4](images/image4.png)
 
-<center>Fig. 5 Color setting of <i>Ksak</i>.</center>
+<center>Fig. 5 Set sequence color in <i>Ksak</i>.</center>
 
 &nbsp;
 
-- <i>Ksak</i> can output two types of clustering tree, including UPGMA clustering and NJ clustering. The following figures show the output results of them.
+<i>Ksak</i> can output two types of clustering tree, including UPGMA clustering and NJ clustering. The following figures (Fig. 6-7) show their example outputs.
 
 ![image5](images/image5.png)
 
@@ -100,15 +100,15 @@ In addition, right click on the sequence name in the shortcut menu, you can mark
 
 &nbsp;
 
-- The output of <i>Ksak</i> can be saved in three ways. The first way is in image form, and you can output all the plots from all parameters at once and save them in a folder. The second way is in matrix form, where all the plots from all parameters are saved in matrix form, stored in the same folder, and saved in the parameter format. The third way is in notepad form, where all sequences are output in the format described under different parameters. These three ways are shown in the figures.
+The output of <i>Ksak</i> can be saved in three ways. The first way is in image form, and you can output all the plots from all parameters at once and save them in a folder. The second way is in matrix form, where all the plots from all parameters are saved in matrix form, stored in the same folder. The third way is to save in the notepad form, where all sequences are output in the format with parameter description. These three ways are shown in Fig. 8.
 
 ![image7](images/image7.png)
 
-<center>Fig. 8 Three output ways of <i>Ksak</i>.</center>
+<center>Fig. 8 Three output formats of <i>Ksak</i>.</center>
 
 &nbsp;
 
-- For the output results in the form of evolution trees, we can upgrade the output to the following 7 presentation forms. The evolution tree allows us to visualize the different clustering effects and the clustering effect of species.
+For the output results saved in the form of evolution trees, <i>Ksak</i> can switch the output in 7 presentation forms as shown in Fig. 9-15 below, this allows one to visualize the different clustering effects of species as needed.
 
 ![image8](images/1.png)
 
