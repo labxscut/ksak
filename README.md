@@ -13,23 +13,23 @@
 <center>Fig. 1. (a) The computation framework of <i>Ksak</i>; (b) Accuracy benchmark results; (c) Efficiency benchmark results; (d) An example phylogeny tree output of <i>Ksak</i>.</center>
 
 ***
-## Software Install
+## Install
 
-### Where can I try this software?
+### Where can I try <i>Ksak</i>?
 
-- You need to clone or download this project, then locate to <b>bin/Release</b>. After clicking <b>Ksak.exe</b> then you'll see the program immediately.
+- You need to clone or download this project, then locate to <b>[bin/Release]</b>. After clicking <i><b>Ksak.exe</b></i>, you'll see the program immediately.
 
-### Where can I get test data?
+### Where can I get the test data?
    
-- We provided some example data in the directory <b>data</b>, you can get the sequence data in <b>sequences</b> or outgroup data in <u>outgroup</u>. You can also use your own sequences data.
+- We have provided some example data in the directory <b>[data]</b>, you can get the sequence data in <b>[sequences]</b> or outgroup data in <u>[outgroup]</u>. You can also use your own data.
 
-### How to use <b>Ksak.exe</b> analysis the given example data?
+### How to use <i><b>Ksak.exe</b></i> to analyze the given example data?
    
-- Click to run Ksak.exe in [bin/Release];
-- Click "Add" button in "Input" group, then pick the sequences in [data/sequences] (Hold "Shift" key to multi-select);
-- Click menu "Inputs/Add Outgroup", then pick the sequences in [data/outgroup];
-- Check "Eu" (or some others if you like) in "Run Parameters" group, and modify "K - mer length" and "Markov Background Order" (or not), then click "Run" button.
-- The tree result will appeared in "Output" group.
+- Click to run <i>Ksak.exe</i> in [bin/Release];
+- Click <i>Add</i> button in <i>Input</i> group, then pick the sequences in [data/sequences] (Hold <i>Shift</i> key to multi-select);
+- Click menu <i>Inputs/Add Outgroup</i>, then pick the sequences in [data/outgroup];
+- Check <i>Eu</i> (or some others if you like) in <i>Run Parameters</i> group, and modify <i>K-mer length</i> and <i>Markov Background Order</i> (or not), then click <i>Run</i> button.
+- The tree result will appeared in <i>Output</i> group.
 
 ***
 ## Manual (Windows)
