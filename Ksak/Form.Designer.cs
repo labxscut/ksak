@@ -89,6 +89,7 @@ namespace SeqDistKPlus
             this.tlpMain = new System.Windows.Forms.TableLayoutPanel();
             this.fdMain = new System.Windows.Forms.FontDialog();
             this.ttAlgebra = new System.Windows.Forms.ToolTip(this.components);
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.msMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.scMain)).BeginInit();
             this.scMain.Panel1.SuspendLayout();
@@ -133,7 +134,7 @@ namespace SeqDistKPlus
             this.msMain.Location = new System.Drawing.Point(0, 0);
             this.msMain.Name = "msMain";
             this.msMain.Padding = new System.Windows.Forms.Padding(9, 2, 0, 2);
-            this.msMain.Size = new System.Drawing.Size(1712, 32);
+            this.msMain.Size = new System.Drawing.Size(1712, 36);
             this.msMain.TabIndex = 3;
             this.msMain.Text = "menuStrip1";
             // 
@@ -143,7 +144,7 @@ namespace SeqDistKPlus
             this.tsmiImageFont,
             this.tsmiLanguage});
             this.tsmiSettings.Name = "tsmiSettings";
-            this.tsmiSettings.Size = new System.Drawing.Size(96, 28);
+            this.tsmiSettings.Size = new System.Drawing.Size(96, 32);
             this.tsmiSettings.Text = "Settings";
             // 
             // tsmiImageFont
@@ -181,7 +182,7 @@ namespace SeqDistKPlus
             this.inputsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addOutgroupToolStripMenuItem});
             this.inputsToolStripMenuItem.Name = "inputsToolStripMenuItem";
-            this.inputsToolStripMenuItem.Size = new System.Drawing.Size(80, 28);
+            this.inputsToolStripMenuItem.Size = new System.Drawing.Size(80, 32);
             this.inputsToolStripMenuItem.Text = "Inputs";
             // 
             // addOutgroupToolStripMenuItem
@@ -205,7 +206,7 @@ namespace SeqDistKPlus
             // scMain.Panel2
             // 
             this.scMain.Panel2.Controls.Add(this.scRight);
-            this.scMain.Size = new System.Drawing.Size(1706, 967);
+            this.scMain.Size = new System.Drawing.Size(1706, 963);
             this.scMain.SplitterDistance = 265;
             this.scMain.TabIndex = 0;
             // 
@@ -217,7 +218,7 @@ namespace SeqDistKPlus
             this.gbInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbInput.Name = "gbInput";
             this.gbInput.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gbInput.Size = new System.Drawing.Size(265, 967);
+            this.gbInput.Size = new System.Drawing.Size(265, 963);
             this.gbInput.TabIndex = 0;
             this.gbInput.TabStop = false;
             this.gbInput.Text = "Input";
@@ -239,13 +240,13 @@ namespace SeqDistKPlus
             this.tlpInput.RowCount = 2;
             this.tlpInput.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlpInput.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
-            this.tlpInput.Size = new System.Drawing.Size(259, 942);
+            this.tlpInput.Size = new System.Drawing.Size(259, 938);
             this.tlpInput.TabIndex = 3;
             // 
             // btnAdd
             // 
             this.btnAdd.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnAdd.Location = new System.Drawing.Point(89, 910);
+            this.btnAdd.Location = new System.Drawing.Point(89, 906);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(80, 30);
@@ -257,7 +258,7 @@ namespace SeqDistKPlus
             // btnLoad
             // 
             this.btnLoad.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnLoad.Location = new System.Drawing.Point(175, 910);
+            this.btnLoad.Location = new System.Drawing.Point(175, 906);
             this.btnLoad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(81, 30);
@@ -269,7 +270,7 @@ namespace SeqDistKPlus
             // btnClear
             // 
             this.btnClear.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnClear.Location = new System.Drawing.Point(3, 910);
+            this.btnClear.Location = new System.Drawing.Point(3, 906);
             this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(80, 30);
@@ -290,7 +291,7 @@ namespace SeqDistKPlus
             this.lvInput.Location = new System.Drawing.Point(4, 4);
             this.lvInput.Margin = new System.Windows.Forms.Padding(4);
             this.lvInput.Name = "lvInput";
-            this.lvInput.Size = new System.Drawing.Size(251, 900);
+            this.lvInput.Size = new System.Drawing.Size(251, 896);
             this.lvInput.TabIndex = 3;
             this.lvInput.UseCompatibleStateImageBehavior = false;
             this.lvInput.View = System.Windows.Forms.View.Details;
@@ -323,7 +324,7 @@ namespace SeqDistKPlus
             // scRight.Panel2
             // 
             this.scRight.Panel2.Controls.Add(this.gbTree);
-            this.scRight.Size = new System.Drawing.Size(1437, 967);
+            this.scRight.Size = new System.Drawing.Size(1437, 963);
             this.scRight.SplitterDistance = 540;
             this.scRight.TabIndex = 0;
             // 
@@ -335,7 +336,7 @@ namespace SeqDistKPlus
             this.gbConfig.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbConfig.Name = "gbConfig";
             this.gbConfig.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gbConfig.Size = new System.Drawing.Size(540, 967);
+            this.gbConfig.Size = new System.Drawing.Size(540, 963);
             this.gbConfig.TabIndex = 0;
             this.gbConfig.TabStop = false;
             this.gbConfig.Text = "Run Parameters";
@@ -363,7 +364,7 @@ namespace SeqDistKPlus
             this.tlpConfig.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 82F));
             this.tlpConfig.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlpConfig.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tlpConfig.Size = new System.Drawing.Size(534, 942);
+            this.tlpConfig.Size = new System.Drawing.Size(534, 938);
             this.tlpConfig.TabIndex = 1;
             // 
             // gbM
@@ -575,6 +576,7 @@ namespace SeqDistKPlus
             // 
             // gbDrawMethod
             // 
+            this.gbDrawMethod.Controls.Add(this.checkBox1);
             this.gbDrawMethod.Controls.Add(this.cbUseSuper);
             this.gbDrawMethod.Controls.Add(this.cbDrawMethod);
             this.gbDrawMethod.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -617,7 +619,7 @@ namespace SeqDistKPlus
             // btnGenerate
             // 
             this.btnGenerate.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnGenerate.Location = new System.Drawing.Point(4, 904);
+            this.btnGenerate.Location = new System.Drawing.Point(4, 900);
             this.btnGenerate.Margin = new System.Windows.Forms.Padding(4);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(526, 34);
@@ -638,7 +640,7 @@ namespace SeqDistKPlus
             this.gbTree.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbTree.Name = "gbTree";
             this.gbTree.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gbTree.Size = new System.Drawing.Size(893, 967);
+            this.gbTree.Size = new System.Drawing.Size(893, 963);
             this.gbTree.TabIndex = 0;
             this.gbTree.TabStop = false;
             this.gbTree.Text = "Output";
@@ -652,7 +654,7 @@ namespace SeqDistKPlus
             this.tcRangeM.Multiline = true;
             this.tcRangeM.Name = "tcRangeM";
             this.tcRangeM.SelectedIndex = 0;
-            this.tcRangeM.Size = new System.Drawing.Size(32, 870);
+            this.tcRangeM.Size = new System.Drawing.Size(32, 866);
             this.tcRangeM.TabIndex = 0;
             this.tcRangeM.Visible = false;
             this.tcRangeM.SelectedIndexChanged += new System.EventHandler(this.tcRangeM_SelectedIndexChanged);
@@ -663,7 +665,7 @@ namespace SeqDistKPlus
             this.pbMain.Location = new System.Drawing.Point(35, 51);
             this.pbMain.Margin = new System.Windows.Forms.Padding(4);
             this.pbMain.Name = "pbMain";
-            this.pbMain.Size = new System.Drawing.Size(855, 870);
+            this.pbMain.Size = new System.Drawing.Size(855, 866);
             this.pbMain.TabIndex = 0;
             this.pbMain.TabStop = false;
             this.pbMain.DoubleClick += new System.EventHandler(this.pbMain_DoubleClick);
@@ -679,7 +681,7 @@ namespace SeqDistKPlus
             this.tcRangeK.Multiline = true;
             this.tcRangeK.Name = "tcRangeK";
             this.tcRangeK.SelectedIndex = 0;
-            this.tcRangeK.Size = new System.Drawing.Size(32, 870);
+            this.tcRangeK.Size = new System.Drawing.Size(32, 866);
             this.tcRangeK.TabIndex = 0;
             this.tcRangeK.SelectedIndexChanged += new System.EventHandler(this.tcRangeK_SelectedIndexChanged);
             // 
@@ -706,7 +708,7 @@ namespace SeqDistKPlus
             this.tcImageType.Controls.Add(this.tpImageTypeCircularTriangular);
             this.tcImageType.Controls.Add(this.tpImageTypeCircularBezier);
             this.tcImageType.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tcImageType.Location = new System.Drawing.Point(3, 921);
+            this.tcImageType.Location = new System.Drawing.Point(3, 917);
             this.tcImageType.Margin = new System.Windows.Forms.Padding(4);
             this.tcImageType.Multiline = true;
             this.tcImageType.Name = "tcImageType";
@@ -794,7 +796,7 @@ namespace SeqDistKPlus
             this.tsslOutput,
             this.tspMain});
             this.ssMain.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.ssMain.Location = new System.Drawing.Point(0, 986);
+            this.ssMain.Location = new System.Drawing.Point(0, 982);
             this.ssMain.MaximumSize = new System.Drawing.Size(0, 30);
             this.ssMain.MinimumSize = new System.Drawing.Size(0, 30);
             this.ssMain.Name = "ssMain";
@@ -829,15 +831,28 @@ namespace SeqDistKPlus
             this.tlpMain.Controls.Add(this.ssMain, 2, 1);
             this.tlpMain.Controls.Add(this.scMain, 0, 0);
             this.tlpMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlpMain.Location = new System.Drawing.Point(0, 32);
+            this.tlpMain.Location = new System.Drawing.Point(0, 36);
             this.tlpMain.Margin = new System.Windows.Forms.Padding(4);
             this.tlpMain.Name = "tlpMain";
             this.tlpMain.RowCount = 2;
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 95.63636F));
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.363636F));
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
-            this.tlpMain.Size = new System.Drawing.Size(1712, 1016);
+            this.tlpMain.Size = new System.Drawing.Size(1712, 1012);
             this.tlpMain.TabIndex = 2;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(358, 44);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(178, 22);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.Text = "计算反向互补序列";
+            this.ttAlgebra.SetToolTip(this.checkBox1, "click here to improve memory officiency");
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // frmMain
             // 
@@ -951,6 +966,7 @@ namespace SeqDistKPlus
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.ToolStripMenuItem inputsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addOutgroupToolStripMenuItem;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

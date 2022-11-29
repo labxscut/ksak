@@ -889,5 +889,10 @@ namespace SeqDistKPlus
         {
 
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            Settings.enableAnit = checkBox1.Checked;
+        }
     }
 }

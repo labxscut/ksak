@@ -47,7 +47,6 @@ namespace SeqDistKPlus
         {
             if (string.IsNullOrWhiteSpace(value))
             {
-                return k.ToString();
                 return $"({leftChild},{rightChild})";
             }
             else

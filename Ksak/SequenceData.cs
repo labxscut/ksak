@@ -33,6 +33,7 @@ namespace SeqDistKPlus
         /// 序列整形格式
         /// </summary>
         private List<List<int>> _lsitSequenceInt = new List<List<int>>();
+        private List<List<int>> _anitListSequenceInt = new List<List<int>>();
 
         private Dictionary<int, SuperList<double>> _dicMarkovRtemp = new Dictionary<int, SuperList<double>>();
                                                  //A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
@@ -78,6 +79,7 @@ namespace SeqDistKPlus
         public Dictionary<int, int> DicTotal { get => _dicTotal; set => _dicTotal = value; }
         public int ID { get => _id; set => _id = value; }
         public List<List<int>> SequenceInt { get => _lsitSequenceInt; set => _lsitSequenceInt = value; }
+        public List<List<int>> AntiSequenceInt { get => _anitListSequenceInt; set => _anitListSequenceInt = value; }
 
 
 
@@ -132,6 +134,25 @@ namespace SeqDistKPlus
                     }
                 }
             }
+            if (Settings.enableAnit)
+            {
+                for (int i = 0; i < listSeqText.Count; i++)
+                {
+                    AntiSequenceInt.Add(new List<int>());
+                    foreach (char item in listSeqText[i])
+                    {
+                        if (item >= 'A' && item <= 'Z')
+                        {
+                            int key = item - 'A';
+                            if (arrDic[key] != -1)
+                            {
+                                AntiSequenceInt[i].Add(3 - arrDic[key]);
+                            }
+                        }
+                    }
+                    AntiSequenceInt.Reverse();
+                }
+            }
         }
 
         /// <summary>
@@ -144,7 +165,7 @@ namespace SeqDistKPlus
             {
                 Ktuple.Add(k, new KtupleData());
                 int total = 0;
-                total = Ktuple[k].CountKtuple(SequenceInt, k, sequenceType);
+                total = Ktuple[k].CountKtuple(SequenceInt, AntiSequenceInt, k, sequenceType);
                 DicTotal.Add(k, total);
             }
         }

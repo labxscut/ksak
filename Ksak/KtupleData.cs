@@ -33,7 +33,7 @@ namespace SeqDistKPlus
         /// <param name="listSequenceInt">序列</param>
         /// <param name="k">k值</param>
         /// <returns></returns>
-        public int CountKtuple(List<List<int>> listSequenceInt, int k, SequenceType sequenceType)
+        public int CountKtuple(List<List<int>> listSequenceInt, List<List<int>> antiListSequenceInt, int k, SequenceType sequenceType)
         {
             //统计
             int total = 0;
@@ -54,6 +54,24 @@ namespace SeqDistKPlus
                 {
                     total += (listSequenceInt[i].Count - k + 1);
                     GetKtupleCount(k, listSequenceInt[i], arrKtuple, sequenceType);
+                }
+            }
+            if (Settings.enableAnit)
+            {
+                total = 0;
+                SuperList<int> antiArrKtuple = new SuperList<int>(count);
+                for (int i = 0; i < antiListSequenceInt.Count; i++)
+                {
+                    if (antiListSequenceInt[i].Count >= k)
+                    {
+                        total += (antiListSequenceInt[i].Count - k + 1);
+                        GetKtupleCount(k, antiListSequenceInt[i], antiArrKtuple, sequenceType);
+                    }
+                }
+
+                for (var i = 0; i < arrKtuple.Count; i++)
+                {
+                    arrKtuple[i] += antiArrKtuple[i];
                 }
             }
             _listKtuple = arrKtuple;

@@ -11,5 +11,6 @@ namespace SeqDistKPlus
     {
         public static Font font = new Font("", 6);
         public static bool useSuperList = true;
+        public static bool enableAnit = false;
     }
 }
