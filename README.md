@@ -152,6 +152,9 @@ For the output results saved in the form of evolution trees, <i>Ksak</i> can swi
 
 ## References:
 
+<b>X. M. Liu</b>, Z Cheng, G Xu, J Xie, X Liu, B Ren, D Ai, Y Chen, <b>Li C. Xia</b> (2023)
+Ksak: A high-throughput tool for alignment-free phylogenetics. Frontiers in Microbiology, 14, 1050130. [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10098151/)
+
 <b>Liu, X. M.</b>, Wan, L., Li, J., Gesine R., Michael S. Waterman., Sun, F. Z. (2011) New powerful statistics for alignment-free sequence comparison under a pattern transfer model. J. Theor. Biol, 284(1), 106-116.
 
 Song, K., Ren, J., Zhai, Z. Y., <b>Liu, X. M.</b>, Deng, M. H., Sun, F. Z. (2013) Alignment-Free Sequence Comparison Based on Next-Generation Sequencing Reads. J Comp. Biol, 20, 64–79.
